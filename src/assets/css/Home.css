@@ -1,0 +1,24 @@
+.embla {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .embla__container {
+    display: flex;
+    height: 100%;
+  }
+  
+  .embla__slide {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .embla__slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  

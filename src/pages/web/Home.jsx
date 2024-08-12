@@ -55,9 +55,11 @@ const Home = () => {
         <div className="embla__slide"><img src='https://ik.imagekit.io/7noyasgt8/Web/pexels-kovyrina-12211-removebg-preview.png'/></div>
         <div className="embla__slide"><img src='https://ik.imagekit.io/7noyasgt8/Web/pexels-cottonbro-3661222-removebg-preview.png'/></div>
       </div>
-     
     </div>
      </div>  
+     <div>
+      <img src='https://ik.imagekit.io/7noyasgt8/Web/pexels-punttim-246576.jpg?updatedAt=1721990706318'/>
+     </div>
    
     </>    
     )

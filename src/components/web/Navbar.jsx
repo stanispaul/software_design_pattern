@@ -20,7 +20,7 @@ const Navbar = () => {
     }
   ]
   return (
-    <div className="absolute top-0 left-0 w-full h-[8vh] flex flex-row justify-center items-center shadow-sm shadow-primary/50">
+    <div className=" top-0 left-0 w-full h-[8vh] flex flex-row justify-center items-center shadow-sm shadow-primary/50">
       <div className="w-1/4 h-full text-primary font-bold flex justify-start items-center text-lg"> Toytopia</div>
       <div className='w-2/4 h-full font-bold flex flex-row justify-end items-center gap-8'>
         {
@@ -33,13 +33,7 @@ const Navbar = () => {
           ))
         }
         <ModeToggle />
-        <div className="z-10 flex min-h-[16rem] items-center justify-center" >
-      <ShimmerButton className="shadow-2xl">
-        <span className="whitespace-pre-wrap text-center text-sm font-medium leading-none tracking-tight text-white dark:from-white dark:to-slate-900/10 lg:text-lg">
-          Login
-        </span>
-      </ShimmerButton>
-    </div>
+        
       </div>
     </div>
   )
